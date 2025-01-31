@@ -17,6 +17,7 @@ function saveToStorage() {
   localStorage.setItem('cart', JSON.stringify(cart));
 }
 
+
 export function addToCart(productId) {
   let matchingItem;
 
@@ -39,6 +40,7 @@ export function addToCart(productId) {
   saveToStorage();
 }
 
+
 export function removeFromCart(productId) {
   const newCart = [];
 
@@ -52,6 +54,7 @@ export function removeFromCart(productId) {
 
   saveToStorage();
 }
+
 
 export function updateDeliveryOption(productId, deliveryOptionId) {
   let matchingItem;

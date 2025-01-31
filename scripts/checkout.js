@@ -83,6 +83,7 @@ function renderOrderSummary() {
         </div>
     `;
   });
+  
 
   function deliveryOptionsHTML(matchingProduct, cartItem) {
     let html = '';
